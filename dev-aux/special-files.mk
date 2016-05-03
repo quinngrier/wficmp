@@ -12,6 +12,7 @@ GATBPS = 'gatbps'
 
 all:
 	$(GATBPS) '--' 'CC0-1.0.txt'
+	$(GATBPS) '--' 'build-aux/VERSION.sh'
 	$(GATBPS) '--' 'dev-aux/CC0-1.0-commit.txt'
 
 ## end_rules
