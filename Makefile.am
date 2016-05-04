@@ -18,6 +18,8 @@ EXTRA_DIST += build-aux/VERSION.sh
 
 TEXI2DVI = 'texi2dvi' $(AM_TEXI2DVIFLAGS) $(TEXI2DVIFLAGS)
 
+include_HEADERS = include/wficmp.h
+
 ## end_variables
 
 ## begin_includes
