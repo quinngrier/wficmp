@@ -1,3 +1,13 @@
+#if (!defined(WFIGT))
+  #define WFIGT(x, y) ( \
+    (x) % 1 == 0 /* only allow integers */ \
+    && \
+    (y) % 1 == 0 /* only allow integers */ \
+    && \
+    (x) + (y) * 0 > (y) + (x) * 0 \
+  )
+#endif
+
 #if (!defined(WFILT))
   #define WFILT(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
