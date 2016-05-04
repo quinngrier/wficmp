@@ -48,6 +48,16 @@
   )
 #endif
 
+#if (!defined(WFINE))
+  #define WFINE(x, y) ( \
+    (x) % 1 == 0 /* only allow integers */ \
+    && \
+    (y) % 1 == 0 /* only allow integers */ \
+    && \
+    (x) + (y) * 0 != (y) + (x) * 0 \
+  )
+#endif
+
 /*
  * The authors of this file have waived all copyright and
  * related or neighboring rights to the extent permitted by
