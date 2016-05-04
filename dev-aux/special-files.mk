@@ -19,6 +19,7 @@ all:
 	$(GATBPS) '--' 'build-aux/VERSION.sh'
 	$(GATBPS) '--' 'build-aux/texinfo.css'
 	$(GATBPS) '--' 'dev-aux/CC0-1.0-commit.txt'
+	$(GATBPS) '--' 'dev-aux/CC0-1.0-file.txt'
 	$(GATBPS) '--' 'm4/GATBPS_CONFIG_FILE.m4'
 	$(GATBPS) '--' 'm4/GATBPS_CONFIG_FILE_SUBST.m4'
 	$(GATBPS) '--' 'm4/GATBPS_DEFINE_DATE.m4'
