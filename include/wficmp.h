@@ -1,5 +1,5 @@
-#if (!defined(WFIEQ))
-  #define WFIEQ(x, y) ( \
+#if (!defined(WFICMPEQ))
+  #define WFICMPEQ(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
     && \
     (y) % 1 == 0 /* only allow integers */ \
@@ -8,8 +8,8 @@
   )
 #endif
 
-#if (!defined(WFIGE))
-  #define WFIGE(x, y) ( \
+#if (!defined(WFICMPGE))
+  #define WFICMPGE(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
     && \
     (y) % 1 == 0 /* only allow integers */ \
@@ -18,8 +18,8 @@
   )
 #endif
 
-#if (!defined(WFIGT))
-  #define WFIGT(x, y) ( \
+#if (!defined(WFICMPGT))
+  #define WFICMPGT(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
     && \
     (y) % 1 == 0 /* only allow integers */ \
@@ -28,8 +28,8 @@
   )
 #endif
 
-#if (!defined(WFILE))
-  #define WFILE(x, y) ( \
+#if (!defined(WFICMPLE))
+  #define WFICMPLE(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
     && \
     (y) % 1 == 0 /* only allow integers */ \
@@ -38,8 +38,8 @@
   )
 #endif
 
-#if (!defined(WFILT))
-  #define WFILT(x, y) ( \
+#if (!defined(WFICMPLT))
+  #define WFICMPLT(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
     && \
     (y) % 1 == 0 /* only allow integers */ \
@@ -48,8 +48,8 @@
   )
 #endif
 
-#if (!defined(WFINE))
-  #define WFINE(x, y) ( \
+#if (!defined(WFICMPNE))
+  #define WFICMPNE(x, y) ( \
     (x) % 1 == 0 /* only allow integers */ \
     && \
     (y) % 1 == 0 /* only allow integers */ \
