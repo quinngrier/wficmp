@@ -17,11 +17,11 @@
 @set fullmanual
 
 @ifplaintext
-@chapheading WFICMP @w{@value{PACKAGEVERSION}}
+@chapheading WFICMP@tie{}@w{@value{PACKAGEVERSION}}
 @end ifplaintext
 
 @titlepage
-@title WFICMP @w{@value{PACKAGEVERSION}}
+@title WFICMP@tie{}@w{@value{PACKAGEVERSION}}
 @subtitle @w{@value{PACKAGEDATE}}
 @vskip 0pt plus 1filll
 @page
@@ -33,12 +33,12 @@
 
 @ifnottex
 @node Top
-@top WFICMP @w{@value{PACKAGEVERSION}}
+@top WFICMP@tie{}@w{@value{PACKAGEVERSION}}
 
-This manual is for WFICMP
-@w{@value{PACKAGEVERSION}@comma{}}
-which was released on
-@w{@value{PACKAGEDATE}@.}
+This manual is for
+WFICMP@tie{}@w{@value{PACKAGEVERSION}@comma{}}
+which was released
+on@tie{}@w{@value{PACKAGEDATE}@.}
 @ifplaintext
 
 @insertcopying
