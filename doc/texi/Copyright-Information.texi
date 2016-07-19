@@ -9,8 +9,9 @@
 @noindent
 All parts of WFICMP are original work@.
 The authors have waived all copyright and related or neighboring rights
-to the extent permitted by law as described by the CC0 1.@:0 Universal
-Public Domain Dedication@.
+to the extent permitted by law as described by the Creative Commons Zero
+(CC0)@tie{}1.@:0
+Universal Public Domain Dedication@.
 @ifset fullmanual
 For the full dedication,
 @pxref{Creative Commons Zero@tie{}@w{1-0}}@.
