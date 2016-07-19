@@ -36,9 +36,9 @@
 @top WFICMP@tie{}@w{@value{PACKAGEVERSION}}
 
 This manual is for
-WFICMP@tie{}@w{@value{PACKAGEVERSION}@comma{}}
+WFICMP@tie{}@w{@value{PACKAGEVERSION}},
 which was released
-on@tie{}@w{@value{PACKAGEDATE}@.}
+on@tie{}@w{@value{PACKAGEDATE}}@.
 @ifplaintext
 
 @insertcopying
