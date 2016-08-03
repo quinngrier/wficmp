@@ -1,11 +1,11 @@
 AC_INIT(
-  [WFICMP],
+  [[WFICMP]],
   m4_esyscmd_s([
     'sh' '-' 'build-aux/VERSION.sh'
   ])m4_if(m4_sysval, [0], [], [m4_fatal([VERSION.sh failed])]),
-  [quinn.grier@gmail.com],
-  [wficmp],
-  [https://www.quinngrier.com/wficmp])[
+  [[quinn.grier@gmail.com]],
+  [[wficmp]],
+  [[https://www.quinngrier.com/wficmp]])[
 
 ]GATBPS_DEFINE_DATE(
   [AC_],
