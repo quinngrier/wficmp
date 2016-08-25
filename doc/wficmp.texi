@@ -9,7 +9,7 @@
 
 @include PACKAGEVERSION.texi
 
-@settitle WFICMP @value{PACKAGEVERSION}
+@settitle WFICMP @value{PACKAGEVERSION} Manual
 
 @include CC0-1.0-copying.texi
 @include PACKAGEDATE.texi
@@ -17,11 +17,11 @@
 @set fullmanual
 
 @ifplaintext
-@chapheading WFICMP@tie{}@w{@value{PACKAGEVERSION}}
+@chapheading WFICMP@tie{}@w{@value{PACKAGEVERSION}} Manual
 @end ifplaintext
 
 @titlepage
-@title WFICMP@tie{}@w{@value{PACKAGEVERSION}}
+@title WFICMP@tie{}@w{@value{PACKAGEVERSION}} Manual
 @subtitle @w{@value{PACKAGEDATE}}
 @vskip 0pt plus 1filll
 @page
@@ -33,7 +33,7 @@
 
 @ifnottex
 @node Top
-@top WFICMP@tie{}@w{@value{PACKAGEVERSION}}
+@top WFICMP@tie{}@w{@value{PACKAGEVERSION}} Manual
 
 This manual is for
 WFICMP@tie{}@w{@value{PACKAGEVERSION}},
