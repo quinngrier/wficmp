@@ -25,6 +25,7 @@ all:
 	$(GENERATE) 'dev-aux/CC0-1.0-commit.txt'
 	$(GENERATE) 'dev-aux/CC0-1.0-file.txt'
 	$(GENERATE) 'dev-aux/Makefile.am.vim'
+	$(GENERATE) 'dev-aux/configure.ac.vim'
 	$(GENERATE) 'm4/GATBPS_CONFIG_FILE.m4'
 	$(GENERATE) 'm4/GATBPS_CONFIG_FILE_SUBST.m4'
 	$(GENERATE) 'm4/GATBPS_DEFINE_DATE.m4'
