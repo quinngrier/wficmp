@@ -1,4 +1,6 @@
-AC_INIT(
+[
+
+]AC_INIT(
   [[WFICMP]],
   m4_esyscmd_s([
     'sh' '-' 'build-aux/VERSION.sh'
