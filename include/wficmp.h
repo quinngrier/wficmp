@@ -1,3 +1,8 @@
+/**
+ *
+ * @hideinitializer
+ */
+
 #if (!defined(WFICMPEQ))
   #define WFICMPEQ(x, y) ( \
     (x) % 1 == 0 /* reject expressions not of integer type */ \
@@ -7,6 +12,11 @@
     (x) + (y) * 0 == (y) + (x) * 0 \
   )
 #endif
+
+/**
+ *
+ * @hideinitializer
+ */
 
 #if (!defined(WFICMPGE))
   #define WFICMPGE(x, y) ( \
@@ -18,6 +28,11 @@
   )
 #endif
 
+/**
+ *
+ * @hideinitializer
+ */
+
 #if (!defined(WFICMPGT))
   #define WFICMPGT(x, y) ( \
     (x) % 1 == 0 /* reject expressions not of integer type */ \
@@ -27,6 +42,11 @@
     (x) + (y) * 0 > (y) + (x) * 0 \
   )
 #endif
+
+/**
+ *
+ * @hideinitializer
+ */
 
 #if (!defined(WFICMPLE))
   #define WFICMPLE(x, y) ( \
@@ -38,6 +58,11 @@
   )
 #endif
 
+/**
+ *
+ * @hideinitializer
+ */
+
 #if (!defined(WFICMPLT))
   #define WFICMPLT(x, y) ( \
     (x) % 1 == 0 /* reject expressions not of integer type */ \
@@ -47,6 +72,11 @@
     (x) + (y) * 0 < (y) + (x) * 0 \
   )
 #endif
+
+/**
+ *
+ * @hideinitializer
+ */
 
 #if (!defined(WFICMPNE))
   #define WFICMPNE(x, y) ( \
