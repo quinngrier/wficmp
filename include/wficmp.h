@@ -1,4 +1,12 @@
 /**
+ * @file
+ *
+ * @brief
+ * Defines macros for performing warning-free integer comparisons.
+ *
+ */
+
+/**
  *
  * @hideinitializer
  */
