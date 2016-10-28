@@ -21,6 +21,7 @@ all:
 	$(GENERATE) 'build-aux/DATE.sh'
 	$(GENERATE) 'build-aux/GATBPS_CONFIG_FILE_RULES.am'
 	$(GENERATE) 'build-aux/VERSION.sh'
+	$(GENERATE) 'build-aux/echo.sh'
 	$(GENERATE) 'build-aux/texinfo.css'
 	$(GENERATE) 'dev-aux/CC0-1.0-commit.txt'
 	$(GENERATE) 'dev-aux/CC0-1.0-file.txt'
