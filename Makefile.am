@@ -23,7 +23,7 @@ TEXI2DVI =
 TEXI2DVI += 'texi2dvi' $(AM_TEXI2DVIFLAGS) $(TEXI2DVIFLAGS)
 
 include_HEADERS =
-include_HEADERS += include/wficmp.h
+include $(srcdir)/build-src/include_HEADERS.am
 
 ## end_variables
 
