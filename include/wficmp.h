@@ -13,9 +13,9 @@
 
 #if (!defined(WFICMPEQ))
   #define WFICMPEQ(x, y) ( \
-    (x) % 1 == 0 /* reject expressions not of integer type */ \
+    (x) % 1 == 0 /* reject non-integer expressions */ \
     && \
-    (y) % 1 == 0 /* reject expressions not of integer type */ \
+    (y) % 1 == 0 /* reject non-integer expressions */ \
     && \
     (x) + (y) * 0 == (y) + (x) * 0 \
   )
@@ -28,9 +28,9 @@
 
 #if (!defined(WFICMPGE))
   #define WFICMPGE(x, y) ( \
-    (x) % 1 == 0 /* reject expressions not of integer type */ \
+    (x) % 1 == 0 /* reject non-integer expressions */ \
     && \
-    (y) % 1 == 0 /* reject expressions not of integer type */ \
+    (y) % 1 == 0 /* reject non-integer expressions */ \
     && \
     (x) + (y) * 0 >= (y) + (x) * 0 \
   )
@@ -43,9 +43,9 @@
 
 #if (!defined(WFICMPGT))
   #define WFICMPGT(x, y) ( \
-    (x) % 1 == 0 /* reject expressions not of integer type */ \
+    (x) % 1 == 0 /* reject non-integer expressions */ \
     && \
-    (y) % 1 == 0 /* reject expressions not of integer type */ \
+    (y) % 1 == 0 /* reject non-integer expressions */ \
     && \
     (x) + (y) * 0 > (y) + (x) * 0 \
   )
@@ -58,9 +58,9 @@
 
 #if (!defined(WFICMPLE))
   #define WFICMPLE(x, y) ( \
-    (x) % 1 == 0 /* reject expressions not of integer type */ \
+    (x) % 1 == 0 /* reject non-integer expressions */ \
     && \
-    (y) % 1 == 0 /* reject expressions not of integer type */ \
+    (y) % 1 == 0 /* reject non-integer expressions */ \
     && \
     (x) + (y) * 0 <= (y) + (x) * 0 \
   )
@@ -73,9 +73,9 @@
 
 #if (!defined(WFICMPLT))
   #define WFICMPLT(x, y) ( \
-    (x) % 1 == 0 /* reject expressions not of integer type */ \
+    (x) % 1 == 0 /* reject non-integer expressions */ \
     && \
-    (y) % 1 == 0 /* reject expressions not of integer type */ \
+    (y) % 1 == 0 /* reject non-integer expressions */ \
     && \
     (x) + (y) * 0 < (y) + (x) * 0 \
   )
@@ -88,9 +88,9 @@
 
 #if (!defined(WFICMPNE))
   #define WFICMPNE(x, y) ( \
-    (x) % 1 == 0 /* reject expressions not of integer type */ \
+    (x) % 1 == 0 /* reject non-integer expressions */ \
     && \
-    (y) % 1 == 0 /* reject expressions not of integer type */ \
+    (y) % 1 == 0 /* reject non-integer expressions */ \
     && \
     (x) + (y) * 0 != (y) + (x) * 0 \
   )
