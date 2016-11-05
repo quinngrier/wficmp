@@ -27,8 +27,8 @@ TEXI2DVI += 'texi2dvi' $(AM_TEXI2DVIFLAGS) $(TEXI2DVIFLAGS)
 doxygen_dep =
 include $(srcdir)/build-src/doxygen_dep.am
 
-doxygen_depv =
-include $(srcdir)/build-src/doxygen_depv.am
+doxygen_dfv =
+include $(srcdir)/build-src/doxygen_dfv.am
 
 doxygen_dst =
 doxygen_dst += doc/wficmp-doxygen
