@@ -24,6 +24,7 @@ files = \
   build-aux/VERSION.sh \
   build-aux/doxygen.am \
   build-aux/echo.sh \
+  build-aux/sh-form.sh \
   build-aux/texinfo.css \
   dev-aux/CC0-1.0-commit.txt \
   dev-aux/CC0-1.0-file.txt \
